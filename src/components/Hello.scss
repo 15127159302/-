@@ -1,0 +1,30 @@
+.overallSituation{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.left {
+    width: 203px;
+    height: 100%;
+    background: #545c64;
+    .el-menu-vertical-demo{
+        font-size:12px;
+        width: 204px;
+        height: 100%;
+        span{
+            font-size: 14px;
+        }
+    }
+}
+.right{
+    width: 81%;
+    float: left;
+    overflow: auto;
+    &>.rheader{
+        width: 100%;
+        height: 30px;
+        background: red;
+    }
+}
